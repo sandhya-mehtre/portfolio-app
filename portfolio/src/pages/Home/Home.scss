@@ -1,0 +1,84 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  
+    .content {
+      max-width: 600px;
+  
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+      }
+  
+      h2 {
+        font-size: 2rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+  
+      p {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+      }
+  
+      .cta-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+  
+        .btn {
+          padding: 12px 20px;
+          font-size: 1rem;
+          font-weight: bold;
+          border-radius: 5px;
+          text-decoration: none;
+          transition: 0.3s ease-in-out;
+  
+          &.primary {
+            background-color: #28a745;
+            color: white;
+  
+            &:hover {
+              background-color: #218838;
+            }
+          }
+  
+          &.secondary {
+            background-color: white;
+            color: #007bff;
+            border: 2px solid #007bff;
+  
+            &:hover {
+              background-color: #007bff;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  
+    // Responsive Design
+    @media (max-width: 768px) {
+      .content {
+        h1 {
+          font-size: 2rem;
+        }
+  
+        h2 {
+          font-size: 1.5rem;
+        }
+  
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,135 @@
+/* // Global App Container */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* // Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: #007bff;
+  color: white;
+
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style: none;
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 500;
+        transition: color 0.3s ease-in-out;
+
+        &:hover {
+          color: #ffdd57;
+        }
+      }
+    }
+  }
+
+  /* // Hamburger Menu Button (for Mobile) */
+  .menu-button {
+    display: none;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+/* // Main Content Wrapper */
+.main-content {
+  flex: 1;
+}
+
+/* // Footer Styling */
+.footer {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 15px;
+  font-size: 1rem;
+}
+
+/* // Responsive Design for Tablets */
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 15px 30px;
+
+    .nav-links {
+      gap: 15px;
+
+      li a {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+
+/* // Mobile Navigation (Hamburger Menu) */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px 20px;
+    position: relative;
+
+    .menu-button {
+      display: block;
+      font-size: 2rem;
+      cursor: pointer;
+      border: none;
+      background: none;
+    }
+
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 100%;
+      background: #007bff;
+      text-align: center;
+      padding: 15px 0;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+
+      &.active {
+        display: flex;
+      }
+
+      li {
+        padding: 10px 0;
+        width: 100%;
+
+        a {
+          display: block;
+          width: 100%;
+          padding: 10px 0;
+        }
+      }
+    }
+  }
+
+
+  .footer {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+}
