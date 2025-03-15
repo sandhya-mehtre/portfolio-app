@@ -1,11 +1,11 @@
 import "./Contact.scss";
 
 const contactDetails = [
-  { label: "Email", value: "myemail@example.com" },
-  { label: "Phone", value: "+91 98765 43210" },
-  { label: "LinkedIn", value: "https://linkedin.com/in/myprofile" },
-  { label: "GitHub", value: "https://github.com/mygithub" },
-  { label: "Location", value: "Mumbai, India" },
+  { label: "Email", value: "sandhyamehtre28@gmail.com" },
+  { label: "Phone", value: "+91-7420840830" },
+  { label: "LinkedIn", value: "https://www.linkedin.com/in/sandhya-bobade-6378bb342/" },
+  { label: "GitHub", value: "https://github.com/sandhya-mehtre" },
+  { label: "Location", value: "Pune, India" },
 ];
 
 const Contact = () => {

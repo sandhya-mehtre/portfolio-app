@@ -1,13 +1,13 @@
 import "./Skills.scss";
 
 const skills = [
-  { name: "React.js", level: "Advanced" },
+  { name: "React.js", level: "Intermediate" },
   { name: "TypeScript", level: "Intermediate" },
-  { name: "JavaScript (ES6+)", level: "Advanced" },
-  { name: "HTML5 & CSS3", level: "Advanced" },
+  { name: "JavaScript (ES6+)", level: "Intermediate" },
+  { name: "HTML5 & CSS3", level: "Intermediate" },
   { name: "SCSS & Responsive Design", level: "Intermediate" },
   { name: "Redux Toolkit", level: "Intermediate" },
-  { name: "Git & GitHub", level: "Advanced" }
+  { name: "Git & GitHub", level: "Intermediate" }
 ];
 
 const Skills = () => {

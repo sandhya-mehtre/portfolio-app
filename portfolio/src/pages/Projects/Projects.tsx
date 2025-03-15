@@ -5,7 +5,7 @@ const projects = [
     title: "Portfolio Website",
     description: "A personal portfolio showcasing my skills, experience, and projects using React and TypeScript.",
     techStack: ["React", "TypeScript", "SCSS"],
-    link: "https://myportfolio.com",
+    link: "https://sandhya-mehtre-portfolio.vercel.app/",
   },
   {
     title: "E-Commerce Website",
@@ -14,17 +14,11 @@ const projects = [
     link: "https://myecommerce.com",
   },
   {
-    title: "Food Delivery App",
-    description: "A cloud kitchen system with real-time order tracking and Firebase backend.",
-    techStack: ["React Native", "Firebase", "Redux Toolkit"],
+    title: "Youtube clone app",
+    description: "A youtube clone app developed using reactjs and typescript",
+    techStack: ["React", "TypeScript", "SCSS"],
     link: "https://myfoodapp.com",
-  },
-  {
-    title: "Task Management App",
-    description: "A Kanban-style task management tool with drag-and-drop functionality.",
-    techStack: ["Next.js", "Tailwind CSS", "Supabase"],
-    link: "https://mytaskapp.com",
-  },
+  }
 ];
 
 const Projects = () => {

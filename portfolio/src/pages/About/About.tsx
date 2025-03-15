@@ -3,31 +3,31 @@ import "./About.scss";
 const aboutSections = [
     {
       title: "Educational Background",
-      content: "Bachelor's Degree in Computer Science from XYZ University (2018).",
+      content: "B.Sc, B.Ed with CGPA of 8.26",
     },
     {
       title: "Work Experience",
-      content: "4+ years of experience as a Frontend Developer specializing in React.js & TypeScript.",
+      content: "6 months of experience as a Frontend Developer specializing in React.js & TypeScript.",
     },
     {
       title: "Certifications",
-      content: "Certified React Developer | Advanced JavaScript Certification | GitHub Expert Certification.",
+      content: "HTML & CSS - Certification course for beginners | JavaScript - The Complete Guide 2024 | React - The Complete Guide 2024 (Including Redux)",
     },
     {
       title: "Hobbies",
-      content: "Coding, Reading Tech Blogs, Gaming, Playing Guitar, and Traveling.",
+      content: "Coding, Reading Tech Blogs, Painting",
     },
     {
       title: "Interests",
-      content: "Web Performance Optimization, UI/UX Design, and Open Source Contributions.",
+      content: "Web Performance Optimization, UI/UX Design",
     },
     {
       title: "Contact Details",
-      content: "Email: myemail@example.com | Phone: +91 98765 43210",
+      content: "Email: sandhyamehtre28@gmail.com | Phone: +91-7420840830",
     },
     {
       title: "Location",
-      content: "Mumbai, India",
+      content: "Pune, India",
     },
   ];
   
